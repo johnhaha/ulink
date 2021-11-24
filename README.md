@@ -11,8 +11,15 @@ link := ulink.NewSimpleUlink(TEAMID,BUNDLEID)
 ```
 
 Then host it🚀
+It should be reached with:
 
-Your json should look like this
+```text
+NAME.YOUR.DOMAIN/apple-app-site-association
+or
+NAME.YOUR.DOMAIN/.well-known/apple-app-site-association
+```
+
+Your json response should look like this
 
 ```json
 {
@@ -29,3 +36,7 @@ Your json should look like this
   }
 }
 ```
+
+## Test your domain
+
+[VALIDATOR]( https://branch.io/resources/aasa-validator/#resultsbox)
